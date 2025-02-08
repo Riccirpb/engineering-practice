@@ -1,3 +1,3 @@
-function createUser(username, age) {
-    
+function createUser(username, age, password) {
+    return new User(username,age);
 }
