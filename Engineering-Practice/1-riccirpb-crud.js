@@ -1,7 +1,7 @@
 class User {   
-    constructor(nombreDeUsuario, edad, creado = null) {
-        this.nombreDeUsuario = nombreDeUsuario;
-        this.edad = edad;
-        this.creado = creado ? new Date(creado): new Date();
+    constructor(username, age, createdAt = null) {
+        this.username = username;
+        this.age = age;
+        this.createdAt = createdAt ? new Date(createdAt): new Date();
     }
   }
